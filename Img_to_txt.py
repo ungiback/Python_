@@ -1,3 +1,5 @@
+#이미지에 있는 텍스트 추출
+
 import cv2
 import pytesseract
 import os
