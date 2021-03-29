@@ -13,12 +13,12 @@ for i in os.listdir(path_):
     text = pytesseract.image_to_string(cut_img, lang='eng') #lang='kor'
     print(i.split('.')[0])
     if len(text.split(' ')) < 3:
-        print('-')
-    else:
+        print('-')                  
+    else:                                       
         if len(text.split(' ')[2]) == 4:
-            print(text.split(' ')[2][0:2])
+            print(text.split(' ')[2][0:2])      
         else:
             print(text.split(' ')[2][0:3])
 
-            
+#퍼센트가 없으면 '-'출력 퍼센트가있으면 숫자출력            
             
