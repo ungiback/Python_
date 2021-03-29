@@ -4,7 +4,7 @@ import cv2
 import pytesseract
 import os
 
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract'
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract' #https://github.com/tesseract-ocr/tesseract/wiki
 path_ = '이미지가있는 폴더경로'
 
 for i in os.listdir(path_):
