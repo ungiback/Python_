@@ -2,6 +2,7 @@
 
 # 원본 사이트 주소 -> https://github.com/abubakr-shafique/Dicom_to_Image-Python/blob/master/Dcm_to_Img_Single.py
 # 원본은 dicom파일을 jpg로 변경해주는 코드가 있고 여기서 필요에따라 변경한 코드
+
 import cv2 as cv
 import numpy as np
 import pydicom as PDCM
